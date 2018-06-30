@@ -1,0 +1,11 @@
+
+
+while continue_crawl(article_chain, target_url):
+	first_link = find_first_link(article_chain[-1])
+	article_chain.append(first_link)
+	time.sleep(2)
+
+def find_first_link(url):
+	response = request.get(url)
+	html = response.text
+	soup = bs4.BeautifulSoup(html, "html.parser")
