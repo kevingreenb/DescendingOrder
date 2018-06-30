@@ -17,4 +17,12 @@ def Descending_Order(num):
 
 #Alternitive shorter and nicer way
 #def Descending_Order(num):
-#    return int("".join(sorted(str(num), reverse=True)))
+#
+#     return int("".join(sorted(str(num), reverse=True)))
+
+
+#def Descending_Order(num):
+#    if isinstance(num, int) and num >= 0:
+#        return int(''.join(sorted(str(num), reverse=True)))
+#    else:
+#        raise ValueError('Non-negative integer expected')
