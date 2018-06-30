@@ -14,3 +14,7 @@ def Descending_Order(num):
     temp.sort(reverse=True)
     temp = ''.join(str(e) for e in temp)
     return int(temp)
+
+#Alternitive shorter and nicer way
+#def Descending_Order(num):
+#    return int("".join(sorted(str(num), reverse=True)))
