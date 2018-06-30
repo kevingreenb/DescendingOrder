@@ -12,5 +12,5 @@
 def Descending_Order(num):
     temp = [int(i) for i in str(num)]
     temp.sort(reverse=True)
-    temp2 = ''.join(str(e) for e in temp)
-    return int(temp2)
+    temp = ''.join(str(e) for e in temp)
+    return int(temp)
