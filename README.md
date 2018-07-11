@@ -1,2 +1,2 @@
 # Python
-These are code exercises I do often to improve my code
+These are code exercises I do to improve my code
