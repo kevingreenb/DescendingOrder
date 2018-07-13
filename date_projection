@@ -1,0 +1,19 @@
+from datetime import timedelta, datetime
+def which_date(start_date,time):
+    """
+    This function takes as input a string depicting a date in YYYY/mm/dd
+    format and a string stating a time period in the form of "X day(s)" or
+    "Y week(s)". Output should be a string in form YYYY/mm/dd with the date
+    that is X days or Y weeks after the initial date.
+    """
+    
+    # Replace this with your code!
+    
+    return end_date
+    temp = time.split();
+    if ((temp[1] == 'days' or temp[1] == 'day' )):
+        end_date = start_date;
+    return end_date
+
+print(which_date('2016/02/10','35 days'));
+    
