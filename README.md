@@ -1,2 +1,2 @@
 # Python
-Data Science with Python
+Data Science and algorithms with Python
